@@ -11,7 +11,7 @@
 
   <!-- About / Company Info -->
   <url>
-    <loc>https://byosetech.com/about.html</loc>
+    <loc>https://byosetech.netlify.app/about.html</loc>
     <lastmod>2026-01-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
@@ -35,10 +35,11 @@
 
   <!-- Contact Page -->
   <url>
-    <loc>https://byosetech.com/contact.html</loc>
+    <loc>https://byosetech.netlify.app/contact.html</loc>
     <lastmod>2026-01-02</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
   </url>
 
 </urlset>
+
