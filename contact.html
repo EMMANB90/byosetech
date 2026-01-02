@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Byose Tech is a Rwanda-based technology company building websites, digital systems, and business solutions for startups and enterprises.">
+<meta name="keywords" content="Byose Tech,byose tec,byose company,byose, web development Rwanda, IT solutions Rwanda, software development, digital systems,web developers rwanda">
+<!-- Open Graph / Social Sharing -->
+<meta property="og:title" content="Byose Tech – Digital & IT Solutions in Rwanda">
+<meta property="og:description" content="Byose Tech builds websites, digital systems, and IT solutions to help businesses grow and go digital.">
+<meta property="og:image" content="https://byosetech.netlify.app/images/og-image.jpg">
+<meta property="og:url" content="https://byosetech.netlify.app">
+<meta property="og:type" content="website">
+
+  <title>Contact Us | Byose Tech</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <nav class="nav">
+    <h1 class="logo">Byose<span>Tech</span></h1>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="projects.html">Projects</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" class="active">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section class="section">
+  <h2>Contact Us</h2>
+  <p class="subtitle">
+    Let’s build technology that works for your business.
+  </p>
+</section>
+
+<section class="section contact-grid">
+
+  <div class="contact-card">
+    <h3>📞 Phone</h3>
+    <p><a href="tel:+250785564401">+250 785 564 401</a></p><br>
+ <p><a href="tel:+250722385522">+250 72385522</a></p>
+  </div>
+
+  <div class="contact-card">
+    <h3>📧 Email</h3>
+    <p>
+      <a href="mailto:emmanb90@gmail.com">
+        emmanb90@gmail.com
+      </a>
+    </p>
+  </div>
+
+  <div class="contact-card">
+    <h3>💬 WhatsApp</h3><br>
+    <a class="btn" href="https://wa.me/250785564401" target="_blank">
+      +250785564401
+    </a>
+  </div>
+
+  <div class="contact-card">
+    <h3>🌍 Location</h3>
+    <p>Rwanda</p>
+    <small>Remote services available</small>
+  </div>
+
+</section>
+
+<section class="section">
+  <h2>Send a Message</h2>
+
+  <form class="contact-form" onsubmit="sendWhatsApp(event)">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email">
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<footer class="footer">
+  © 2025 Byose Tech. All rights reserved.
+</footer>
+
+<script>
+function sendWhatsApp(e) {
+  e.preventDefault();
+  const name = document.getElementById("name").value;
+  const message = document.getElementById("message").value;
+  const text = `Hello, my name is ${name}. ${message}`;
+  window.open(
+    `https://wa.me/250785564401?text=${encodeURIComponent(text)}`,
+    "_blank"
+  );
+}
+</script>
+
+</body>
+</html>
